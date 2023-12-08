@@ -1,0 +1,40 @@
+.container{
+    width: 800px;
+    background-color: silver;
+    padding: 10px;
+    margin: 0px auto;
+}
+h1{
+    text-align: center;
+    margin-top: 0px;
+}
+
+p{
+    text-align: center;
+    font-weight: bold;
+}
+
+.firstBlock{
+    background-color: aqua;
+    display: flex;
+    padding: 10px;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.secondBlock{
+    background-color: pink;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.thirdBlock{
+    background-color: aliceblue;
+    display: flex;
+    justify-content: space-around;
+}
+
+img{
+    height: 200px;
+}

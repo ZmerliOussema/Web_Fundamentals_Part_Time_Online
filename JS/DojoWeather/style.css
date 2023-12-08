@@ -1,0 +1,93 @@
+*{
+    margin: 0px auto;
+    padding: 0px;
+}
+
+.top{
+    background-color: rgb(159, 197, 248);
+    color: white;
+    padding: 20px 0px;
+    margin-bottom: 20px;
+}
+
+.nav-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.list-btn{
+    display: flex;
+}
+
+.list-btn li {
+    margin-right: 20px;
+    list-style: none;
+    
+}
+
+.list-btn a{
+    text-decoration: none;
+    color: white;
+    font-size: bold;
+}
+
+.top-container{
+    margin: 0px auto;
+    width: 1080px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid black;
+    margin-bottom: 10px;
+}
+
+#temperature{
+    margin-bottom: 10px;
+}
+
+.main{
+    width: 1080px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.card{
+    background-color: rgb(238, 238, 238);
+    text-align: center;
+    padding: 20px;
+}
+
+.icon{
+    width: 150px;
+    border-radius: 50%;
+}
+
+.max{
+    color: rgb(207, 42, 39);
+}
+
+.min{
+    color: rgb(43, 120, 228);
+}
+
+.cookie{
+    width: 1080px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(238, 238, 238);
+}
+
+.cookie p{
+    margin: 0px 50px;
+}
+
+.btn{
+    box-shadow: 2px 5px black;
+    background-color: rgb(159, 197, 248);
+    width: 80px;
+    height: 30px;
+}

@@ -1,0 +1,203 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+
+.nav-bar{
+    background-color: black;
+    color: aliceblue;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-bar div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+}
+
+.nav-bar a {
+    color: aliceblue;
+    text-decoration: none;
+    margin: 10px;
+}
+
+.active {
+    font-weight: bold;
+}
+
+.btn {
+    background-color: rgb(23, 162, 184);
+    color: aliceblue;
+    padding: 10px;
+    border-style: none;
+}
+
+.user-card{
+    width: 400px;
+    background: linear-gradient(
+        to bottom,
+        rgb(23, 162, 184) 0%,
+        rgb(23, 162, 184) 30%,
+        white 30%,
+        white 100%
+    );
+    border-style: solid;
+    border-width: 2px;
+    border-color: grey;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.user-card h2 {
+    margin-left: 30px;
+    margin-bottom: 10px ;
+}
+
+.user-card div {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.profile-img{
+    border-radius: 50%;
+    width: 200px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 300px;
+}
+
+.col{
+    flex: 2;
+}
+
+.col-2{
+    flex: 1;
+}
+
+.education-card {
+    width: 420px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: grey;
+    margin-bottom: 20px;
+}
+
+.education-card div {
+    padding: 10px;
+}
+
+.education-card h3 {
+    background-color: rgb(39, 39, 39);
+    color: aliceblue;
+}
+
+.education-card h2 {
+    margin: 10px 0px;
+}
+
+.date {
+    color: grey;
+    margin: 10px 0px;
+}
+
+.connection-requests-card {
+    border-style: solid;
+    border-width: 2px;
+    border-color: grey;
+    margin-bottom: 20px;
+}
+
+.connection-requests-card div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.connection-requests-card h3 {
+    background-color: rgb(39, 39, 39);
+    color: aliceblue;
+    margin-bottom: 10px;
+}
+
+.connection-requests-card div img{
+    margin-right: 10px;
+    margin-bottom: 10px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.your-connections-card{
+    border-style: solid;
+    border-width: 2px;
+    border-color: grey;
+}
+
+.your-connections-card h3 {
+    background-color: rgb(39, 39, 39);
+    color: aliceblue;
+}
+
+.your-connections-card .main-card div{
+    display: flex;
+    align-items: center;
+}
+
+.your-connections-card .main-card div img {
+    margin-right: 10px;
+    margin-bottom: 10px;
+    width: 50px;
+    border-radius: 50%;
+}
+.icon{
+    width: 50px;
+    height: 50px;
+    margin: 0px 10px;
+}
+
+.main-card{
+    border-style: solid;
+    border-width: 2px;
+    border-color: grey;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.your-connections-card a {
+    margin: 10px;
+}
+
+.header {
+    background-color: #333333;
+    padding: 20px;
+    color: #ffffff;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+}
+
+.connections {
+    background-color: #eee;
+    color: #333;
+    font-size: 20px;
+    border-radius: 12px;
+    height: 24px;
+    padding: 0 10px;
+    margin-right: 10px;
+}

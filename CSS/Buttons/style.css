@@ -1,0 +1,26 @@
+.btn_search, .btn_plus, .btn_create {
+    display: block;
+    margin-bottom: 10px;
+    height: 40px;
+}
+
+.btn_search{
+    color: blue;
+    border-radius: 10px;
+    background-color: aliceblue;
+    
+}
+
+.btn_plus{
+    color: aliceblue;
+    background-color: blue;
+    border-radius: 50%;
+}
+
+.btn_create{
+    color: aliceblue;
+    background-color: blue;
+    border-color: black;
+    box-shadow: 10px 5px 5px black;
+}
+

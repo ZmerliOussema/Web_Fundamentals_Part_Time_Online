@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DojoWeather</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="top">
+        <div class="nav-bar">
+            <h1>DojoWeather</h1>
+            <ul class="list-btn">
+                <li><a href="#" onclick="alert('Burbank selected')">Burbank</a></li>
+                <li><a href="#" onclick="alert('Chicago selected')">Chicago</a></li>
+                <li><a href="#" onclick="alert('Dallas selected')">Dallas</a></li>
+            </ul>
+        </div>
+    </div>
+    <!-- Main container -->
+    <div class="top-container">
+        <h3>San Jose</h3>
+        <span>
+            show temperature in
+            <select id="temperature">
+                <option value="#">°C</option>
+                <option value="#">°F</option>
+            </select>
+        </span>
+    </div>
+    <div class="main">
+        <div class="card">
+            <h5>Today</h5>
+            <img src="assets\some_rain.png" alt="some_rain" class="icon">
+            <p>some rain</p>
+            <span class="max">24°</span>
+            <span class="min">18°</span>
+        </div>
+        <div class="card">
+            <h5>Tomorrow</h5>
+            <img src="assets\some_sun.png" alt="some_sun" class="icon">
+            <p>some sun</p>
+            <span class="max">27°</span>
+            <span class="min">19°</span>
+        </div>
+        <div class="card">
+            <h5>Friday</h5>
+            <img src="assets\some_clouds.png" alt="some_clouds" class="icon">
+            <p>some clouds</p>
+            <span class="max">21°</span>
+            <span class="min">16°</span>
+        </div>
+        <div class="card">
+            <h5>Saturday</h5>
+            <img src="assets\some_sun.png" alt="some_sun" class="icon">
+            <p>some sun</p>
+            <span class="max">26°</span>
+            <span class="min">21°</span>
+        </div>
+    </div>
+    <!-- Cookie -->
+    <div class="cookie">
+        <img src="assets\cookie.png" alt="cookie">
+        <p>
+            <span>Stop! Cookie time</span>
+            We use cookies (sadly not the edible ones) to personalize
+            content and ads, to provide social media features and to 
+            analyse our traffic. <a href="#">Read more</a>
+        </p>
+        <button class="btn" onclick="accept(element)">I Accept</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
