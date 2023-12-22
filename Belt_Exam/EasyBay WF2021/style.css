@@ -1,0 +1,138 @@
+/* CSS Resets */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body {
+    width: 1080px;
+    margin: 0px auto;
+    padding: 20px 0px;
+}
+
+.top{
+    margin-top: 10px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top img {
+    cursor: pointer;
+}
+
+#logo{
+    background-color:  rgb(0, 209, 178);
+    cursor: auto;
+}
+
+.search-bar {
+    width: 550px;
+    height: 30px;
+    background: url("images/assets/search-dark.png") no-repeat right;
+    background-size: 20px;
+    padding: 5px;
+    border-radius: 12px;
+    border: 2px solid black;
+}
+
+.top a, .nav-links a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    border-bottom: 2px solid black;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+h1{
+    text-align: center;
+}
+
+.row-1 {
+    display: flex;
+    margin-top: 20px;
+}
+
+.left {
+    flex: 2;
+    display: flex;
+    margin-right: 30px;
+}
+
+.left .info span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right {
+    flex: 1;
+}
+
+.info {
+    width: 400px;
+    background-color: rgb(0, 209, 178);
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    padding: 20px 0px;
+}
+
+.flex {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 325px;
+}
+
+.row-2 {
+    margin-top: 10px;
+    padding: 10px 0px;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(170, 232, 216);
+}
+
+.row-2 img {
+    width: 150px;
+    border-radius: 50%;
+}
+
+.row-2 p {
+    text-align: center;
+}
+
+.cookie {
+    height: 80px;
+    margin: 0px auto;
+    width: 1080px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 2px solid black;
+    position: fixed;
+    bottom: 10px;
+    background-color: white;
+    padding: 10px 0px;
+}
+
+.btn-cookie {
+    background-color: rgb(0, 209, 178);
+    color: white;
+    box-shadow: 2px 5px black;
+    padding: 10px;
+    height: 40px;
+    width: 100px;
+    font-weight: bold;
+    cursor: pointer;
+}
